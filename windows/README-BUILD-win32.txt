@@ -53,6 +53,12 @@ http://nsis.sourceforge.net/Download
 
 http://nsis.sourceforge.net/Venis_IX
 
+8. Install prerequisites for GtkSpellCheck using Pip:
+
+pip install sphinx
+pip install pyenchant
+pip install pygtkspellcheck
+
 
 Building the Application Icon
 -----------------------------
