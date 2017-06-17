@@ -331,7 +331,8 @@ if py2exe:
 				"optimize": 2,
 				"ascii": 1,
 				"bundle_files": 3,
-				"packages": ["encodings", "cairo", "atk", "pangocairo", "zim"],
+				"packages": ["encodings", "cairo", "atk", "pangocairo", "enchant", "gtkspellcheck", "zim"],
+				#"packages": ["encodings", "cairo", "atk", "pangocairo", "zim"],
 				"dll_excludes": {
 					"DNSAPI.DLL"
 				}
